@@ -1,0 +1,24 @@
+hhhhh
+    <head>
+        <title>Marko's blog</title>
+    </head>
+    <body>
+        {% for post in posts %}
+			{{ post }}
+				<h1><a href="/">marko's blog</a></h1>
+		{%endfor%}
+
+        {{posts}}
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Babito te amo </p>
+        {{posts}}
+		{% for post in posts %}
+			{{posts}}
+																<p>published: 14.06.2014, 12:14</p>
+				<h2><a href="">My second post</a></h2>
+				<p>blablaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaa</p>
+			{{posts}}
+		{%endfor%}
+    </body>
+</html>

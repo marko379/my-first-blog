@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models                           #	MODELS IN BLOGX
 from django.conf import settings
 from django.utils import timezone 
 
